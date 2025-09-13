@@ -58,7 +58,7 @@ http://example.com -w common.txt -t 20 -d 0.1 -o results.txt
 
 3. In PowerShell / CMD:
 
-
+ ##🔹And
 
 git clone https://github.com/Githu836/dirbuster-mini.git
 cd dirbuster-mini
@@ -158,8 +158,7 @@ When contributing:
 
 
 ---
-
-## 🧾 License
+#🧾 License
 
 
 This project is licensed under the MIT License — see LICENSE file.

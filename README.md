@@ -3,7 +3,7 @@
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)  
 ![Python](https://img.shields.io/badge/Python-3.x-blue.svg)  
 ![Platform](https://img.shields.io/badge/Platform-Termux%20|%20Linux%20|%20Windows-lightgrey.svg)  
-![Status](https://img.shields.io/badge/Status-Beta-orange.svg)
+![Status](https://img.shields.io/badge/Status-1.0-blue.svg)
 
 **DirBuster Mini** — minimalist incremental directory brute-forcer.  
 Lightweight, threaded, and easy to use on Termux / Linux / Windows.

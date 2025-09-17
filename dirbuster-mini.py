@@ -28,7 +28,7 @@ BANNER = f"""{Fore.CYAN}
  | | | | |__ \\ V /| __| | | | __/ _ \| '__| |\/| | | '_ \ / _` |
  | |_| | |__) | | | |_| |_| | || (_) | |  | |  | | | | | | (_| |
  |____/|_|___/ |_|  \__|\__,_|\__\___/|_|  |_|  |_|_|_| |_|\__,_|
- {Fore.YELLOW}Mini Directory Brute-forcer v2.0
+ {Fore.YELLOW}Mini Directory Brute-forcer v1.0
  {Fore.GREEN}By: Faqih
 {Style.RESET_ALL}
 """

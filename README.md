@@ -99,7 +99,9 @@ python3 dirbuster-mini.py http://target.local -w common.txt
 python3 dirbuster-mini.py http://target.local -w common.txt -t 50 -d 0.05 -o found.txt
 
 # Use full path to a wordlist folder
+
 ```
+
 python3 dirbuster-mini.py target.com -w wordlists/common.txt -t 30
 ```
 ---

@@ -76,7 +76,7 @@ http://example.com -w common.txt -t 20 -d 0.1 -o results.txt
 
 ## 🧭 Usage & Options
 
-### usage: dirbuster-mini.py target [-w WORDLIST] [-t THREADS] [-d DELAY] [-o OUTPUT] [-v]
+usage: dirbuster-mini.py target [-w WORDLIST] [-t THREADS] [-d DELAY] [-o OUTPUT] [-v]
 
  Positional:
   target                Target URL (e.g., http://example.com)
@@ -90,15 +90,15 @@ Options:
 ###
 Example:
 
-# Quick scan using bundled wordlist
+## Quick scan using bundled wordlist
 ```
 python3 dirbuster-mini.py http://target.local -w common.txt
 ```
-# Faster, with more threads and small delay
+## Faster, with more threads and small delay
 ```
 python3 dirbuster-mini.py http://target.local -w common.txt -t 50 -d 0.05 -o found.txt
 ```
-# Use full path to a wordlist folder
+## Use full path to a wordlist folder
 
 ```
 
@@ -161,7 +161,7 @@ When contributing:
 
 
 ---
-#🧾 License
+# 🧾 License
 
 
 This project is licensed under the MIT License — see LICENSE file.

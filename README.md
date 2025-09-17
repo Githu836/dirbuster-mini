@@ -97,7 +97,7 @@ python3 dirbuster-mini.py http://target.local -w common.txt
 # Faster, with more threads and small delay
 ```
 python3 dirbuster-mini.py http://target.local -w common.txt -t 50 -d 0.05 -o found.txt
-
+```
 # Use full path to a wordlist folder
 
 ```

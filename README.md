@@ -39,16 +39,17 @@ pip install -r requirements.txt
 python3 dirbuster-mini.py http://example.com -w common.txt -t 20 -d 0.1 -o results.txt
 ```
 ##🔹 Linux (Ubuntu / Kali / Debian / Arch)
-
+```
 sudo apt update && sudo apt install python3 python3-pip git -y
 git clone https://github.com/Githu836/dirbuster-mini.git
 cd dirbuster-mini
 pip3 install -r requirements.txt
 python3 dirbuster-mini.py
 ```
-## run (example
+## run (example)
+```
 http://example.com -w common.txt -t 20 -d 0.1 -o results.txt
-``
+```
 ## 🔹 Windows (CMD / PowerShell)
 
 1. Install Python 3.x from https://www.python.org/downloads/
@@ -60,14 +61,14 @@ http://example.com -w common.txt -t 20 -d 0.1 -o results.txt
 3. In PowerShell / CMD:
 
  ##🔹And
-
+```
 git clone https://github.com/Githu836/dirbuster-mini.git
 cd dirbuster-mini
 pip install -r requirements.txt
 python dirbuster-mini.py 
 ```
-
-## run (example(
+```
+## run (example)
 http://example.com -w common.txt -t 20 -d 0.1 -o results.txt
 ```
 
@@ -111,8 +112,6 @@ Multi-threaded requests; sets simple User-Agent.
 
 Prints colored status codes and saves results if -o specified.
 
-
-```
 ---
 
 ## 📝 Notes & Tips
@@ -124,7 +123,6 @@ Put your common.txt under wordlists/common.txt OR pass custom path with -w.
 If target blocks by User-Agent or WAF, try adjusting headers in the script (requests.Session headers).
 
 
-```
 ---
 
 # 📎 Requirements
@@ -154,8 +152,6 @@ When contributing:
 
 
 2. Use clear commit messages and update README usage when adding flags.
-
-```
 
 
 ---

@@ -35,8 +35,9 @@ cd dirbuster-mini
 pip install -r requirements.txt
 ```
 ## run (example)
-python3 dirbuster-mini.py http://example.com -w common.txt -t 20 -d 0.1 -o results.txt
 ```
+python3 dirbuster-mini.py http://example.com -w common.txt -t 20 -d 0.1 -o results.txt
+``
 ##🔹 Linux (Ubuntu / Kali / Debian / Arch)
 
 sudo apt update && sudo apt install python3 python3-pip git -y

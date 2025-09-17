@@ -60,15 +60,15 @@ http://example.com -w common.txt -t 20 -d 0.1 -o results.txt
 
 3. In PowerShell / CMD:
 
- ##🔹And
+## 🔹And
 ```
 git clone https://github.com/Githu836/dirbuster-mini.git
 cd dirbuster-mini
 pip install -r requirements.txt
 python dirbuster-mini.py 
 ```
-```
 ## run (example)
+```
 http://example.com -w common.txt -t 20 -d 0.1 -o results.txt
 ```
 
@@ -76,9 +76,9 @@ http://example.com -w common.txt -t 20 -d 0.1 -o results.txt
 
 ## 🧭 Usage & Options
 
-usage: dirbuster-mini.py target [-w WORDLIST] [-t THREADS] [-d DELAY] [-o OUTPUT] [-v]
+### usage: dirbuster-mini.py target [-w WORDLIST] [-t THREADS] [-d DELAY] [-o OUTPUT] [-v]
 
-Positional:
+ Positional:
   target                Target URL (e.g., http://example.com)
 
 Options:
@@ -87,16 +87,19 @@ Options:
   -d, --delay           Delay between requests in seconds (default: 0)
   -o, --output          Output file to save results
   -v, --verbose         Verbose output
-
+###
 Example:
 
 # Quick scan using bundled wordlist
+```
 python3 dirbuster-mini.py http://target.local -w common.txt
-
+```
 # Faster, with more threads and small delay
+```
 python3 dirbuster-mini.py http://target.local -w common.txt -t 50 -d 0.05 -o found.txt
 
 # Use full path to a wordlist folder
+```
 python3 dirbuster-mini.py target.com -w wordlists/common.txt -t 30
 
 ```
@@ -132,7 +135,9 @@ Add these to requirements.txt:
 requests
 colorama
 
-Install with pip install -r requirements.txt.
+Install with :
+```
+pip install -r requirements.txt.
 
 ```
 ---
